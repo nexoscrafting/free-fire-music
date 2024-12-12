@@ -1,0 +1,198 @@
+/* Reset default styles for all elements */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Set base font size to 62.5% for easier rem units */
+html {
+  font-size: 62.5%;
+}
+
+/* Global styling for the body */
+body {
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+  background: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Global styling for SVG elements */
+svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Styling for main heading */
+.heading {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+/* Container styling for the content */
+.container {
+  background: rgba(110, 255, 250, 1);
+  height: auto;
+  max-width: 512px;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  clip-path: polygon(25px 0%, 100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%, 0% 25px);
+}
+
+/* Container styling for the music content */
+.music-container {
+  height: auto;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 2.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  clip-path: polygon(25px 0%, 100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%, 0% 25px);
+  background: rgba(0, 0, 0, 1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(px);
+}
+
+/* Styling for the cover box */
+#cover-box {
+  border-radius: 0.5rem;
+  padding: .25rem;
+  background: #24CFC5;
+  background-image: linear-gradient(220.55deg, #FFFFFF 0%, #000000 100%);
+  width: 25rem;
+  height: 25em;
+  clip-path: polygon(25px 0%, 100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%, 0% 25px);
+}
+
+/* Styling for the cover image */
+#cover {
+  display: block;
+  height: 100%;
+  border-radius: 0.5rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  clip-path: polygon(25px 0%, 100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%, 0% 25px);
+}
+
+/* Styling for the music box */
+#music-box {
+  width: 100%;
+}
+
+/* Styling for the music information */
+#music-info {
+  clip-path: polygon(20px 0%, 100% 0, 100% calc(100% - 0px), calc(100% - 0px) 100%, 0 100%, 0% 20px);
+  padding: 1rem 0.5rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 2rem;
+  background: rgba(110, 255, 250, 0.75);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 2px;
+}
+
+/* Styling for the title */
+#title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+/* Styling for the artist */
+#artist {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Styling for the progress container */
+#progress-container {
+  height: 1rem;
+  width: 100%;
+  background-color: rgb(255 255 255 / 33%);
+  border: 1px solid cyan;
+  cursor: pointer;
+  border-radius: 0.1rem;
+}
+
+/* Styling for the timer bar */
+#timer-bar {
+  margin: 2rem 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+}
+
+/* Styling for the progress bar */
+#progress {
+  background-color: #000;
+  width: 0%;
+  height: 0.8rem;
+  border-radius: inherit;
+  transition: width 100ms ease-in;
+}
+
+/* Styling for the control box */
+#control-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  clip-path: polygon(0px 0%, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0% 0px);
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 2em;
+  background: rgba(110, 255, 250, 0.75);
+  border-radius: 0px 0px 0px 4px;
+}
+
+/* Styling for close button */
+.btn-x {
+  margin: 0 0.25rem;
+  background-color: #71717a;
+  background-image: linear-gradient(45deg, #71717a 20%, #e7e5e4 80%);
+  padding: 0.1rem;
+  border-radius: .25rem;
+  clip-path: polygon(12px 0%, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0% 12px);
+}
+
+/* Styling for general buttons */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 2rem;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #71717a;
+  border-radius: 0.25rem;
+  color: #000000;
+  clip-path: polygon(12px 0%, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0% 12px);
+}
+
+/* Media query for hover effect on certain buttons */
+@media (hover: hover) {
+  .btn-x:hover {
+    background-color: rgba(236, 72, 153, 1);
+    background-image: linear-gradient(45deg, #71717a 20%, #EC4899 80%);
+    color: #545454;
+  }
+
+  .special-btn:hover {
+    opacity: 0.75;
+  }
+}

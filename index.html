@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Music Player</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="music-container">
+      <!-- Music Information -->
+      <div id="music-info">
+        <h2 id="title"></h2>
+        <h3 id="artist"></h3>
+      </div>
+
+      <!-- Cover Image -->
+      <div id="cover-box">
+        <img src="./assets/images/cover1.jpg" alt="cover-image" id="cover" />
+      </div>
+
+      <!-- Music Controls and Timer -->
+      <div id="music-box">
+        <audio id="disc"></audio>
+        <div id="timer-bar">
+          <span id="timer">0:00</span>
+          <span id="duration"></span>
+        </div>
+        <div id="progress-container">
+          <div id="progress"></div>
+        </div>
+      </div>
+
+      <!-- Control Buttons -->
+      <div id="control-box">
+        <div class="btn-x">
+          <span id="voldown" class="btn clip-2">
+            <!-- Volume Down Icon -->
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <path stroke="#e7e5e4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M17.5 8.4a5 5 0 0 1 0 7.1M14 6.1V18a1 1 0 0 1-1.6.7L8 15H6a1 1 0 0 1-1-1v-4c0-.6.4-1 1-1h2l4.4-3.6A1 1 0 0 1 14 6Z" />
+            </svg>
+          </span>
+        </div>
+        <div class="btn-x">
+          <span id="prev" class="btn clip-2">
+            <!-- Previous Track Icon -->
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#e7e5e4" viewBox="0 0 24 24">
+              <path fill-rule="evenodd"
+                d="M7 6a1 1 0 0 1 2 0v4l6.4-4.8A1 1 0 0 1 17 6v12a1 1 0 0 1-1.6.8L9 14v4a1 1 0 1 1-2 0V6Z"
+                clip-rule="evenodd" />
+            </svg>
+          </span>
+        </div>
+        <div class="btn-x">
+          <span id="play" class="btn clip-1">
+            <!-- Play/Pause Icon -->
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#e7e5e4" viewBox="0 0 24 24">
+              <path fill-rule="evenodd"
+                d="M8.6 5.2A1 1 0 0 0 7 6v12a1 1 0 0 0 1.6.8l8-6a1 1 0 0 0 0-1.6l-8-6Z"
+                clip-rule="evenodd" />
+                </svg>
+            </span>
+        </div>
+        <div class="btn-x">
+          <span id="next" class="btn clip-2">
+            <!-- Next Track Icon -->
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#e7e5e4" viewBox="0 0 24 24">
+              <path fill-rule="evenodd"
+                d="M17 6a1 1 0 1 0-2 0v4L8.6 5.2A1 1 0 0 0 7 6v12a1 1 0 0 0 1.6.8L15 14v4a1 1 0 1 0 2 0V6Z"
+                clip-rule="evenodd" />
+            </svg>
+          </span>
+        </div>
+        <div class="btn-x">
+          <span id="volup" class="btn clip-2">
+            <!-- Volume Up Icon -->
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <path stroke="#e7e5e4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M15.5 8.4a5 5 0 0 1 0 7.1m2.9 2.9a9 9 0 0 0 0-12.8m-6.4.5V18a1 1 0 0 1-1.6.7L6 15H4a1 1 0 0 1-1-1v-4c0-.6.4-1 1-1h2l4.4-3.6A1 1 0 0 1 12 6Z" />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
+  <script src="./js/autoplay.js"></script>
+</body>
+
+</html>
