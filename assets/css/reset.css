@@ -1,0 +1,33 @@
+/* Normalize or Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-size: 100%;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button {
+    border: none;
+    background: none;
+  }
+  
+  input, button, textarea {
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  

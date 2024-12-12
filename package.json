@@ -1,0 +1,30 @@
+{
+    "name": "free-fire-music",
+    "version": "1.0.0",
+    "description": "A fan-made website to showcase and stream Free Fire theme songs.",
+    "main": "index.js",
+    "scripts": {
+      "start": "live-server --port=8080 --open=./pages/index.html",
+      "build": "parcel build pages/index.html --dist-dir dist",
+      "dev": "parcel pages/index.html --open --watch",
+      "test": "echo \"No tests specified\" && exit 0",
+      "lint": "eslint ./assets/js",
+      "clean": "rm -rf dist node_modules"
+    },
+    "keywords": [
+      "Free Fire",
+      "Music",
+      "Gaming",
+      "Theme Songs"
+    ],
+    "author": "Nexos Creator",
+    "license": "MIT",
+    "dependencies": {
+      "live-server": "^1.2.2",
+      "parcel": "^2.8.3"
+    },
+    "devDependencies": {
+      "eslint": "^8.50.0"
+    }
+  }
+  

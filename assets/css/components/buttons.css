@@ -1,0 +1,31 @@
+/* Button Styles */
+/* Styling for general buttons */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 2rem;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: var(--button-bg);
+  border-radius: 0.25rem;
+  color: var(--button-text-color);
+  clip-path: polygon(
+    12px 0%,
+    100% 0,
+    100% calc(100% - 12px),
+    calc(100% - 12px) 100%,
+    0 100%,
+    0% 12px
+  );
+}
+
+.btn:hover {
+  background-color: var(--accent-color);
+}
+
+.btn:active {
+  background-color: var(--primary-color);
+}

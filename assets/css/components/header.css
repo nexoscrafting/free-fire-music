@@ -1,0 +1,20 @@
+/* Header Styles */
+header {
+  padding: 1rem 2rem;
+  text-align: center;
+  /* background: var(--gradient-primary); */
+  /* box-shadow: var(--box-shadow); */
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 2.4rem;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.ff-nav {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}

@@ -1,0 +1,54 @@
+/* Reset default styles for all elements */
+:root {
+    /* Primary Colors */
+    --primary-color: #ffcc00; /* Gold - Represents Free Fire’s logo and rewards */
+    --secondary-color: #1f1f1f; /* Dark Gray - Background for a modern look */
+    --accent-color: #ff3d00; /* Bright Red - For action buttons or highlights */
+  
+    /* Background Colors */
+    --background-color: #0f0f0f; /* Deep Black - Main background */
+    --card-background: #1a1a1a; /* Slightly lighter black for cards/sections */
+  
+    /* Text Colors */
+    --text-color-primary: #ffffff; /* Bright White - Main text */
+    --text-color-secondary: #b3b3b3; /* Gray - Secondary text */
+    --text-highlight: #ffcc00; /* Gold - Highlighted text */
+  
+    /* Gradients */
+    --gradient-primary: linear-gradient(
+      90deg,
+      #ff3d00,
+      #ffcc00
+    ); /* Orange-red to gold */
+    --gradient-secondary: linear-gradient(
+      180deg,
+      #1f1f1f,
+      #ff3d00
+    ); /* Dark to red */
+  
+    /* Shadows */
+    --box-shadow-light: 0px 4px 10px rgba(255, 60, 0, 0.4); /* Light red shadow */
+    --box-shadow-dark: 0px 4px 10px rgba(0, 0, 0, 0.8); /* Subtle black shadow */
+  
+    /* Borders */
+    --border-radius: 8px; /* Slightly rounded corners for UI elements */
+    --border-color: #ffcc00; /* Gold border for premium look */
+  
+    /* Buttons */
+    --button-bg: #ff3d00; /* Bright red */
+    --button-hover-bg: #ffcc00; /* Gold on hover */
+    --button-text-color: #ffffff; /* White text for contrast */
+  
+    /* Audio Player Colors */
+    --player-bg: #1f1f1f; /* Dark background */
+    --player-track-color: #ffcc00; /* Gold track */
+    --player-thumb-color: #ff3d00; /* Red thumb handle */
+  
+    /* Miscellaneous */
+    --success-color: #28a745; /* Green for success messages */
+    --error-color: #dc3545; /* Red for error messages */
+    --warning-color: #ffc107; /* Yellow for warnings */
+  
+    /* Animations */
+    --transition-speed: 300ms ease-in-out;
+  }

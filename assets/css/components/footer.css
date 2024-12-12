@@ -1,0 +1,27 @@
+/* Footer Styles */
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--text-color-secondary);
+}
+
+footer a {
+  color: var(--text-highlight);
+  text-decoration: none;
+  transition: color var(--transition-speed);
+}
+
+footer a:hover {
+  color: var(--button-hover-bg);
+}
+
+footer .ff-credit {
+  font-size: 14px;
+  color: var(--text-color-primary);
+}
+
+.ff-copy {
+  font-size: 10px;
+  color: var(--text-color-secondary);
+}

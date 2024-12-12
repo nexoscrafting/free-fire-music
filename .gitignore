@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE-generated files
+.vscode/
+.idea/
+*.iml
+
+# npm-debug file
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Asset build files
+assets/css/*.map
+assets/js/*.map
+
+# Generated data
+data/*.generated.json
