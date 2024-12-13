@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const musicPlayer = document.getElementById("disc");
 
     // Autoplay the music when the page loads

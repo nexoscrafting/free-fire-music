@@ -7,7 +7,7 @@
 
 > A fan-made website dedicated to Free Fire 🎮 theme songs, featuring a sleek UI, music player, and more. Not affiliated with Garena.
 
-![Website Preview](public/preview-image.png)
+![Website Preview](public/cover.png)
 
 ---
 
@@ -32,33 +32,6 @@
 ## 📸 Screenshots of Music Player 🎧
 
 ![Music Player](public/preview-image.png)
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-name`.
-3. Commit your changes: `git commit -m 'Add feature'`.
-4. Push to the branch: `git push origin feature-name`.
-5. Submit a pull request.
-
----
-
-## 👥 Contributors
-
-Thanks to everyone who has contributed to this project:
-
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/nexoscreator"><img src="https://avatars.githubusercontent.com/nexoscreator" width="100px;" alt=""/><br /><sub><b>Nexos Creator</b></sub></a></td>
-    <td align="center"><a href="https://github.com/nexoscreation"><img src="https://avatars.githubusercontent.com/nexoscreation" width="100px;" alt=""/><br /><sub><b>Nexos Creation</b></sub></a></td>
-  </tr>
-</table>
-
----
 
 ## 📜 License
 

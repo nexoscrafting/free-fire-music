@@ -22,8 +22,36 @@
   );
 }
 
-.btn:hover {
-  background-color: var(--accent-color);
+/* Styling for close button */
+.btn-x {
+  margin: 0 0.25rem;
+  background-color: var(--button-bg);
+  background-image: var(--gradient-secondary);
+  padding: 0.1rem;
+  border-radius: 0.25rem;
+  clip-path: polygon(
+    12px 0%,
+    100% 0,
+    100% calc(100% - 12px),
+    calc(100% - 12px) 100%,
+    0 100%,
+    0% 12px
+  );
+}
+
+/* Media query for hover effect on certain buttons */
+@media (hover: hover) {
+  .btn:hover {
+    background: var(--button-hover-bg);
+  }
+  .btn-x:hover {
+    background-color: var(--button-hover-bg);
+    background-image: var(--gradient-secondary-hover);
+  }
+
+  .special-btn:hover {
+    opacity: 0.75;
+  }
 }
 
 .btn:active {

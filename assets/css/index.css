@@ -35,6 +35,11 @@ body {
 svg {
   width: 24px;
   height: 24px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1;
+  stroke: #1f1f1f;
+  fill: none;
 }
 
 /* Container styling for the content */
@@ -120,6 +125,17 @@ svg {
 }
 
 /* Styling for the music information */
+#music-info,
+#control-box {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow-dark);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
 #music-info {
   clip-path: polygon(
     20px 0%,
@@ -130,14 +146,8 @@ svg {
     0% 20px
   );
   padding: 1rem 0.5rem;
-  text-align: center;
-  width: 100%;
-  position: relative;
   bottom: 2rem;
-  background: var(--button-bg);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 2px;
+  border-radius: 0px 4px 0px 0px;
 }
 
 /* Styling for the title */
@@ -165,11 +175,11 @@ svg {
 
 /* Styling for the timer bar */
 #timer-bar {
-  margin: 2rem 0 1rem;
+  margin: 2rem 0 0.5rem;
   display: flex;
   color: var(--text-color-secondary);
   justify-content: space-between;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 /* Styling for the progress bar */
@@ -195,42 +205,6 @@ svg {
     0% 0px
   );
   padding: 1rem;
-  text-align: center;
-  width: 100%;
-  position: relative;
   top: 2em;
-  background: var(--button-bg);
   border-radius: 0px 0px 0px 4px;
-}
-
-/* Styling for close button */
-.btn-x {
-  margin: 0 0.25rem;
-  background-color: var(--button-bg);
-  background-image: var(--gradient-secondary);
-  padding: 0.1rem;
-  border-radius: 0.25rem;
-  clip-path: polygon(
-    12px 0%,
-    100% 0,
-    100% calc(100% - 12px),
-    calc(100% - 12px) 100%,
-    0 100%,
-    0% 12px
-  );
-}
-
-/* Media query for hover effect on certain buttons */
-@media (hover: hover) {
-  .btn:hover {
-    background: var(--button-hover-bg);
-  }
-  .btn-x:hover {
-    background-color: var(--button-hover-bg);
-    background-image: var(--gradient-secondary);
-  }
-
-  .special-btn:hover {
-    opacity: 0.75;
-  }
 }
