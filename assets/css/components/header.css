@@ -2,15 +2,59 @@
 header {
   padding: 1rem 2rem;
   text-align: center;
-  /* background: var(--gradient-primary); */
-  /* box-shadow: var(--box-shadow); */
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: var(--box-shadow);
   margin-bottom: 1rem;
+  width: 512px;
+  max-width: 1024px;
 }
 
-header h1 {
+.ff-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ff-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.ff-logo-img {
+  width: 28px;
+  height: 28px;
+  margin-right: 0.5rem;
+}
+
+.ff-head {
   font-size: 2.4rem;
   color: var(--primary-color);
   font-weight: 600;
+}
+
+.ff-nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.ff-button {
+  background-color: var(--button-bg);
+  color: var(--button-text-color);
+  border: none;
+  padding: 10px 15px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color var(--transition-speed);
+}
+
+.ff-button:hover {
+  background-color: var(--button-hover-bg);
 }
 
 .ff-nav {

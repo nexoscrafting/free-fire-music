@@ -35,3 +35,4 @@ assets/js/*.map
 
 # Generated data
 data/*.generated.json
+.parcel-cache

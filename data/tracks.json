@@ -1,0 +1,56 @@
+[
+  {
+    "title": "FF SONGS - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/track0.mp3"
+  },
+  {
+    "title": "3rd ANNIVERSARY - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track1.jfif",
+    "discPath": "./../music/FREE_FIRE_3rd_ANNIVERSARY_THEME.mp3"
+  },
+  {
+    "title": "DJ - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track1.jfif",
+    "discPath": "./../music/FREE_FIRE_DJ_THEME.mp3"
+  },
+  {
+    "title": "NEW - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track1.jfif",
+    "discPath": "./../music/FREE_FIRE_NEW_THEME.mp3"
+  },
+  {
+    "title": "NEW WINTERLANDS - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track1.jfif",
+    "discPath": "./../music/FREE_FIRE_NEW_WINTERLANDS_THEME.mp3"
+  },
+  {
+    "title": "OLD HALLOWEEN - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track1.jfif",
+    "discPath": "./../music/FREE_FIRE_OLD_HALLOWEEN_THEME.mp3"
+  },
+  {
+    "title": "OLD - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track1.jfif",
+    "discPath": "./../music/FREE_FIRE_OLD_THEME.mp3"
+  },
+  {
+    "title": "RAMPAGE - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track1.jfif",
+    "discPath": "./../music/FREE_FIRE_RAMPAGE_THEME.mp3"
+  },
+  {
+    "title": "SUMMERTIME - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track1.jfif",
+    "discPath": "./../music/FREE_FIRE_SUMMERTIME_THEME.mp3"
+  }
+]

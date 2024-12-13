@@ -1,27 +1,33 @@
 /* Footer Styles */
 footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
   margin-top: 3rem;
   text-align: center;
   font-size: 1.2rem;
   color: var(--text-color-secondary);
+  width: 512px;
+  max-width: 1024px;
 }
 
-footer a {
+.ff-disclaimer {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color-secondary);
+}
+
+.ff-credit {
+  font-size: 0.9rem;
+  color: var(--text-color-primary);
+}
+
+.ff-creator {
   color: var(--text-highlight);
   text-decoration: none;
   transition: color var(--transition-speed);
 }
 
-footer a:hover {
+.ff-creator:hover {
   color: var(--button-hover-bg);
-}
-
-footer .ff-credit {
-  font-size: 14px;
-  color: var(--text-color-primary);
-}
-
-.ff-copy {
-  font-size: 10px;
-  color: var(--text-color-secondary);
+  text-decoration: underline;
 }

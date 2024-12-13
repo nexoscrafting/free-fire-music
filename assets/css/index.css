@@ -22,6 +22,7 @@ body {
   font-family: "Poppins", "Montserrat", sans-serif;
   background: var(--background-color);
   color: var(--text-color-primary);
+  line-height: 1.6;
   display: flex;
   flex-direction: column;
   justify-content: center;
