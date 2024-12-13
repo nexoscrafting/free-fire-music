@@ -1,4 +1,4 @@
-[![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fyourwebsite.com&style=flat-square&color=cyan)](https://yourwebsite.com)
+[![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fnexoscrafting.github.io%2Ffree-fire-music&style=flat-square&color=cyan)](https://nexoscrafting.github.io/free-fire-music/)
 ![GitHub License](https://img.shields.io/github/license/nexoscrafting/free-fire-music.svg?style=flat-square&color=cyan)
 [![Contributors](https://img.shields.io/github/contributors/nexoscrafting/free-fire-music?style=flat-square&color=cyan)](#-contributors)
 [![GitHub stars](https://img.shields.io/github/stars/nexoscrafting/free-fire-music?&style=flat-square&color=cyan)](https://github.com/nexoscrafting/free-fire-music/stargazers)
@@ -7,7 +7,7 @@
 
 > A fan-made website dedicated to Free Fire 🎮 theme songs, featuring a sleek UI, music player, and more. Not affiliated with Garena.
 
-![Website Preview](https://yourwebsite.com/preview-image.png)
+![Website Preview](public/preview-image.png)
 
 ---
 
@@ -23,21 +23,15 @@
 
 ### Links
 
-[![Web Demo](https://img.shields.io/badge/Web-Demo-blue?style=for-the-badge&logo=google-chrome)](https://nexoscreation.github.io/featurastic-music-page)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-green?style=for-the-badge&logo=github)](https://github.com/nexoscreation/featurastic-music-page)
+[![Web Demo](https://img.shields.io/badge/Web-Demo-blue?style=for-the-badge&logo=google-chrome)](https://nexoscrafting.github.io/free-fire-music)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-green?style=for-the-badge&logo=github)](https://github.com/nexoscrafting/free-fire-music)
 <!-- [![YouTube Video](https://img.shields.io/badge/YouTube-Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/rMnDe0iEGRs?si=B2viVesOhHYusbBG) -->
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots of Music Player 🎧
 
-### 🎵 Home Page
-
-![Home Page](https://yourwebsite.com/screenshots/home-page.png)
-
-### 🎧 Music Player
-
-![Music Player](https://yourwebsite.com/screenshots/music-player.png)
+![Music Player](public/preview-image.png)
 
 ---
 
