@@ -1,13 +1,11 @@
 /* Footer Styles */
 footer {
-  background-color: rgba(0, 0, 0, 0.8);
   padding: 1rem;
   margin-top: 3rem;
   text-align: center;
   font-size: 1.2rem;
   color: var(--text-color-secondary);
-  width: 512px;
-  max-width: 1024px;
+  max-width: 768px;
 }
 
 .ff-disclaimer {

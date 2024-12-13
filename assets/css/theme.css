@@ -23,8 +23,13 @@
   --gradient-secondary: linear-gradient(
     180deg,
     #1f1f1f,
+    #b3b3b3
+  );
+  --gradient-secondary-hover: linear-gradient(
+    360deg,
+    #1f1f1f,
     #ff3d00
-  ); /* Dark to red */
+  );
 
   /* Shadows */
   --box-shadow-light: 0px 4px 10px rgba(255, 60, 0, 0.4); /* Light red shadow */

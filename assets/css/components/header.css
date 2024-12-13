@@ -2,14 +2,10 @@
 header {
   padding: 1rem 2rem;
   text-align: center;
-  background: rgba(0, 0, 0, 0.8);
   box-shadow: var(--box-shadow);
   margin-bottom: 1rem;
-  width: 512px;
-  max-width: 1024px;
-}
-
-.ff-nav {
+  max-width: 768px;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,7 +16,7 @@ header {
   align-items: center;
   text-decoration: none;
   color: var(--primary-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -39,6 +35,8 @@ header {
 
 .ff-nav-links {
   display: flex;
+  flex-direction: column;
+  gap: 24px;
   justify-content: space-between;
   list-style: none;
 }
@@ -47,7 +45,8 @@ header {
   background-color: var(--button-bg);
   color: var(--button-text-color);
   border: none;
-  padding: 10px 15px;
+  font-size: 1.2rem;
+  padding: 8px 16px;
   border-radius: var(--border-radius);
   cursor: pointer;
   transition: background-color var(--transition-speed);
