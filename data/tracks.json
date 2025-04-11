@@ -1,56 +1,104 @@
 [
   {
-    "title": "FF SONGS - THEME",
-    "artist": "GARENA FREE FIRE",
-    "coverPath": "./../assets/images/track0.jpg",
-    "discPath": "./../music/track0.mp3"
-  },
-  {
     "title": "3rd ANNIVERSARY - THEME",
     "artist": "GARENA FREE FIRE",
-    "coverPath": "./../assets/images/track1.jfif",
-    "discPath": "./../music/FREE_FIRE_3rd_ANNIVERSARY_THEME.mp3"
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/3rd_anniversary_theme.mp3"
   },
   {
     "title": "DJ - THEME",
     "artist": "GARENA FREE FIRE",
-    "coverPath": "./../assets/images/track1.jfif",
-    "discPath": "./../music/FREE_FIRE_DJ_THEME.mp3"
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/dj_theme.mp3"
   },
   {
     "title": "NEW - THEME",
     "artist": "GARENA FREE FIRE",
-    "coverPath": "./../assets/images/track1.jfif",
-    "discPath": "./../music/FREE_FIRE_NEW_THEME.mp3"
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/new_theme.mp3"
   },
   {
     "title": "NEW WINTERLANDS - THEME",
     "artist": "GARENA FREE FIRE",
-    "coverPath": "./../assets/images/track1.jfif",
-    "discPath": "./../music/FREE_FIRE_NEW_WINTERLANDS_THEME.mp3"
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/new_winterlands_theme.mp3"
   },
   {
     "title": "OLD HALLOWEEN - THEME",
     "artist": "GARENA FREE FIRE",
-    "coverPath": "./../assets/images/track1.jfif",
-    "discPath": "./../music/FREE_FIRE_OLD_HALLOWEEN_THEME.mp3"
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/old_halloween_theme.mp3"
   },
   {
     "title": "OLD - THEME",
     "artist": "GARENA FREE FIRE",
-    "coverPath": "./../assets/images/track1.jfif",
-    "discPath": "./../music/FREE_FIRE_OLD_THEME.mp3"
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/old_theme.mp3"
   },
   {
     "title": "RAMPAGE - THEME",
     "artist": "GARENA FREE FIRE",
-    "coverPath": "./../assets/images/track1.jfif",
-    "discPath": "./../music/FREE_FIRE_RAMPAGE_THEME.mp3"
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/rampage_theme.mp3"
   },
   {
     "title": "SUMMERTIME - THEME",
     "artist": "GARENA FREE FIRE",
-    "coverPath": "./../assets/images/track1.jfif",
-    "discPath": "./../music/FREE_FIRE_SUMMERTIME_THEME.mp3"
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/summertime_theme.mp3"
+  },
+  {
+    "title": "BOOYAH - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/booyah.mp3"
+  },
+  {
+    "title": "DEATH UPRISING - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/death_uprising.mp3"
+  },
+  {
+    "title": "LET THE BATTLE BEGIN - THEME",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/let_the_battle_begin.mp3"
+  },
+  {
+    "title": "ELECTRONIC GUITAR - LOBBY",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/electronic_guitar_lobby.mp3"
+  },
+  {
+    "title": "ORIGINAL - LOBBY",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/original_lobby.mp3"
+  },  
+  {
+    "title": "WINTERLANDS I - LOBBY",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/winterlands_i_lobby.mp3"
+  },
+  {
+    "title": "WINTERLANDS II - LOBBY",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/winterlands_ii_lobby.mp3"
+  },
+  {
+    "title": "WORLD CUP I - LOBBY",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/world_cup_i_lobby.mp3"
+  },
+  {
+    "title": "WORLD SERIES I - LOBBY",
+    "artist": "GARENA FREE FIRE",
+    "coverPath": "./../assets/images/track0.jpg",
+    "discPath": "./../music/world_series_i_lobby.mp3"
   }
 ]

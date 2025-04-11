@@ -3,7 +3,7 @@ header {
   padding: 1rem 2rem;
   text-align: center;
   box-shadow: var(--box-shadow);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   max-width: 768px;
   width: 95%;
   display: flex;
@@ -46,7 +46,7 @@ header {
   color: var(--button-text-color);
   border: none;
   font-size: 1.2rem;
-  padding: 8px 16px;
+  padding: 6px 12px;
   border-radius: var(--border-radius);
   cursor: pointer;
   transition: background-color var(--transition-speed);

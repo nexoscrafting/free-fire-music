@@ -5,18 +5,6 @@
 @import url("./components/header.css");
 @import url("./components/footer.css");
 
-/* General Reset styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Set base font size to 62.5% for easier rem units */
-html {
-  font-size: 62.5%;
-}
-
 /* Global styling for the body */
 body {
   font-family: "Poppins", "Montserrat", sans-serif;
@@ -90,7 +78,7 @@ svg {
   background: var(--card-background);
   background-image: var(--gradient-primary);
   width: 25rem;
-  height: 25em;
+  min-height: 25em;
   clip-path: polygon(
     25px 0%,
     100% 0,
