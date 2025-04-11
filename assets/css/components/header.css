@@ -1,5 +1,6 @@
 /* Header Styles */
 header {
+  font-family: 'GFFLatinW05-Bold', sans-serif;
   padding: 1rem 2rem;
   text-align: center;
   box-shadow: var(--box-shadow);

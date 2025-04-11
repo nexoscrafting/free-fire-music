@@ -5,9 +5,23 @@
 @import url("./components/header.css");
 @import url("./components/footer.css");
 
+@font-face {
+  font-family: 'GFFLatinW05-Bold';
+  src: url('fonts/GFFLatinW05-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GFFLatinW05-Medium';
+  src: url('fonts/GFFLatinW05-Medium.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
 /* Global styling for the body */
 body {
-  font-family: "Poppins", "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: var(--background-color);
   color: var(--text-color-primary);
   line-height: 1.6;
@@ -115,6 +129,7 @@ svg {
 /* Styling for the music information */
 #music-info,
 #control-box {
+  font-family: 'GFFLatinW05-Bold', sans-serif;
   text-align: center;
   width: 100%;
   position: relative;
