@@ -1,13 +1,13 @@
 /* Reset default styles for all elements */
 :root {
   /* Primary Colors */
-  --primary-color: #ffcc00; /* Gold - Represents Free Fire’s logo and rewards */
-  --secondary-color: #1f1f1f; /* Dark Gray - Background for a modern look */
+  --primary-color: #ffba00; /* Gold - Represents Free Fire’s logo and rewards */
+  --secondary-color: #141414; /* Dark Gray - Background for a modern look */
   --accent-color: #ff3d00; /* Bright Red - For action buttons or highlights */
 
   /* Background Colors */
-  --background-color: #0f0f0f; /* Deep Black - Main background */
-  --card-background: #1a1a1a; /* Slightly lighter black for cards/sections */
+  --background-color: #191a1f; /* Deep Black - Main background */
+  --card-background: #2b2d32; /* Slightly lighter black for cards/sections */
 
   /* Text Colors */
   --text-color-primary: #ffffff; /* Bright White - Main text */
@@ -18,16 +18,16 @@
   --gradient-primary: linear-gradient(
     90deg,
     #ff3d00,
-    #ffcc00
+    #ffba00
   ); /* Orange-red to gold */
   --gradient-secondary: linear-gradient(
     180deg,
-    #1f1f1f,
-    #b3b3b3
+    #191a1f,
+    #ffffff
   );
   --gradient-secondary-hover: linear-gradient(
     360deg,
-    #1f1f1f,
+    #141414,
     #ff3d00
   );
 
